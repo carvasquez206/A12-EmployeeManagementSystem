@@ -79,7 +79,7 @@ Try to add some additional functionality to your application, such as the abilit
 * View the total utilized budget of a department&mdash;in other words, the combined salaries of all employees in that department.
 
 ## Link to Github Repository
-- https://github.com/carvasquez206
+- https://github.com/carvasquez206/A12-EmployeeManagementSystem
 
 ## Link to Github website
 - 
