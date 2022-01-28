@@ -8,7 +8,7 @@ I WANT to be able to view and manage the departments, roles, and employees in my
 SO THAT I can organize and plan my business
 ```
 
-## Acceptance Criteria
+## Criteria
 
 ```md
 GIVEN a command-line application that accepts user input
