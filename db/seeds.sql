@@ -15,8 +15,9 @@ VALUES ("2pac", "Shakur", 2, 2),
        ("Jim", "Carey", 2, null),
        ("Michael","Scott" , 1, 1),
        ("Abel", "Tesfaye", 1, 2),
-       ("Dwight","Schrute" , 1, null),
-       ("Prison","Mike" , 1, 1),
+       ("Dwight","Schrute", 1, null),
+       ("Prison","Mike", 1, 1),
+       ("Stanley","Yelnats", 1, null),
 
 
 
