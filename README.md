@@ -29,10 +29,8 @@ THEN I am prompted to enter the employee’s first name, last name, role, and ma
 WHEN I choose to update an employee role
 THEN I am prompted to select an employee to update and their new role and this information is updated in the database 
 ```
-
-
-
-As the image illustrates, your schema should contain the following three tables:
+## Database Structure 
+The schema contains the following three tables:
 
 * `department`
 
@@ -62,14 +60,20 @@ As the image illustrates, your schema should contain the following three tables:
 
     * `manager_id`: `INT` to hold reference to another employee that is the manager of the current employee (`null` if the employee has no manager)
 
-You might want to use a separate file that contains functions for performing specific SQL queries you'll need to use. A constructor function or class could be helpful for organizing these. You might also want to include a `seeds.sql` file to pre-populate your database, making the development of individual features much easier.
+* constructor for organization
+* `seeds.sql` file to pre-populate your database
+
+## Installations
+- `npm install`
+
+## Commands to Start SQL
+- `mysql -u root -p`
+- `source db/schema.sql`
+- `source db/seeds.sql`
+
+### Screenshots
+- 
 
 ## Link to Github Repository
 - https://github.com/carvasquez206/A12-EmployeeManagementSystem
-
-## Link to Github website
-- 
-
-## Link to Video
-- 
 
