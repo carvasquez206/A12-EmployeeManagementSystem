@@ -106,5 +106,5 @@ NODE
 
 
 ## Link to Github Repository
-- https://github.com/carvasquez206/A12-EmployeeManagementSystem
+- https://github.com/carvasquez206/EmployeeManagementSystem1.2
 
