@@ -65,6 +65,13 @@ The schema contains the following three tables:
 
 ## Installations
 - `npm install`
+* Inquirer 
+- `npm install inquirer`[Inquirer package](https://www.npmjs.com/package/inquirer).
+* MySQL2 
+- `npm install --save mysql2`[MySQL2 package](https://www.npmjs.com/package/mysql2) to connect to a MySQL database.
+* console.table package
+- `npm install console.table --save`
+- `bower install console.table --save` [console.table package](https://www.npmjs.com/package/console.table) to print MySQL rows to the console.
 
 ## Commands to Start SQL
 - `mysql -u root -p`
