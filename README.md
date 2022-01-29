@@ -74,9 +74,10 @@ The schema contains the following three tables:
 - `bower install console.table --save` [console.table package](https://www.npmjs.com/package/console.table) to print MySQL rows to the console.
 
 ## Commands to Start SQL
-- `mysql -u root -p`
-- `source db/schema.sql`
-- `source db/seeds.sql`
+- `mysql -u root -p`: to start the SQL server
+- `source db/schema.sql`: to source schema
+- `source db/seeds.sql`: to source seeds
+- `exit`: to exit SQL
 
 ### Screenshots
 - 

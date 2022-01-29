@@ -1,25 +1,36 @@
+USE employeelist_db;
+
 INSERT INTO department (name)
-VALUES ("IT"),
-       ("Entertainment"),
+VALUES ("Youtuber"),
+       ("Gamestop Clerk"),
        ("Singer"),
-       ("Software Developer");
+       ("Game Design"),
+       ("Rapper");
 
 INSERT INTO role (title, salary, department_id)
-VALUES ("IT", 78000, 1),
-       ("Rapper", 25000000, 2 ),
-       ("Singer", 55000000, 2),
-       ("Software Developer", 125000, 1),
-
-INSERT INTO employee (first_name,last_name, role_id, manager_id)
-VALUES ("2pac", "Shakur", 2, Null),
-       ("Jim", "Carey", 2, null),
-       ("Michael","Scott" , 1, Null),
-       ("Abel", "Tesfaye", 1, Null),
-       ("Dwight","Schrute", 1, 1,
-       ("Prison","Mike", 1, 1),
-       ("Stanley","Yelnats", 1, null),
+VALUES ("Manager", 200000.00, 1),
+       ("Engineer", 125000.00, 2),
+       ("Intern", 45000.00, 3);
+       
 
 
+INSERT INTO employee (first_name, last_name, role_id, manager_id)
+VALUES ("John", "Doe", 1, null),
+       ("Pam", "Beasly", 2, 1),
+       ("Will", "Smith", 3, 1),
+       ("2pac", "Shakur", 3, null),
+       ("Jennifer", "Lopez", 1, null),
+       ("Ron", "Swanson", 2, null),
+       ("Dwight", "Schrute", 2, 5),
+       ("Rick", "James", 3, 5),
+       ("Russel", "Wilson", 3, 5);
+       
+
+       
+
+SELECT * FROM department;
+SELECT * FROM role;
+SELECT * FROM employee;
 
 
 /* `department`
