@@ -84,11 +84,15 @@ The schema contains the following three tables:
 - `npm run`: to run server.js (app)
 
 ### Screenshots
+<br>
 SQL
+
 <br>
 <img width="404" alt="Screen Shot 2022-01-29 at 12 26 19 PM" src="https://user-images.githubusercontent.com/63617482/151677014-42ebabab-8dc8-4d10-8091-08f31f53021f.png">
 <br>
+
 NODE
+<br>
 <img width="420" alt="Screen Shot 2022-01-29 at 12 38 34 PM" src="https://user-images.githubusercontent.com/63617482/151677010-d583d6f7-90a3-4bda-ad7d-699e80ba2598.png">
 <br>
 <img width="522" alt="Screen Shot 2022-01-29 at 12 39 17 PM" src="https://user-images.githubusercontent.com/63617482/151676957-c9f8985c-4deb-4ab2-bfbf-8bd2ee5400c7.png">
