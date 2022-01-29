@@ -12,10 +12,11 @@ const db = mysql.createConnection(
     // MySQL username,
     user: process.env.DB_USERNAME,
     // MySQL password
-    password: process.env.DB_PASSWORD,
-    database: 'employeelist_db'
+    user: "root",
+    password: "password",
+    database: 'employee_db'
   },
-  console.log(`Connected to the employeelist_db database.`)
+  console.log(`Connected to the employee_db database.`)
 );
 
 function viewAllDepartments() {

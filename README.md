@@ -79,6 +79,10 @@ The schema contains the following three tables:
 - `source db/seeds.sql`: to source seeds
 - `exit`: to exit SQL
 
+## Commands to Start SQL
+- `npm i`: to install dependencies
+- `npm run`: to run server.js (app)
+
 ### Screenshots
 - 
 
