@@ -252,7 +252,7 @@ function mainMenu() {
       }
       if(answer.mainMenu === 'Finished') {
         db.end();
-        console.log('\n Until next time you rascal! \n');
+        console.log('\n See ya later Aligator! \n');
         return;
       }
     }).catch((err) => {
